@@ -1,9 +1,9 @@
 # Site settings
-title: Landfallbox
-SEOTitle: Personal Website of Landfallbox
-header-img: img/home-bg.jpg
+title: Landfallbox  # 博客的标题
+SEOTitle: Personal Website of Landfallbox  # 显示在浏览器标签页的内容
+header-img: img/home-bg.jpg  # 显示在首页的背景图片
 email: landfallbox@gmail.com
-description: "Personal website including code etc."
+description: "Personal website including code etc."  # 网站介绍
 keyword: "Blog, Personal Website, Android, Jetpack Compose, Java, SpringBoot, Kotlin, Python, Machine Learning, Deep Learning"
 url: "https://landfallbox.github.io/" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-# disqus_username: 
+disqus_username: googletang
 
 # Netease settings
 netease_comment: false
@@ -75,7 +75,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "A student majoring in Computer Sicense"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/Huxpro.png  # 个人头像
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,7 +88,7 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-# Friends
-friends:
+# links
+links:
   [
   ]
