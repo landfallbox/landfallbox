@@ -91,4 +91,8 @@ page-mathjax: false
 # links
 links:
   [
+    {
+      title: "Hux Blog",
+      url: "https://huangxuan.me/"
+    }
   ]
