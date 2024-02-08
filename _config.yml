@@ -22,13 +22,11 @@ url     : landfallbox.github.io  # the base hostname & protocol for your site e.
 baseurl : # does not include hostname
 title   : Personal website of Landfallbox
 description: > # this means to ignore newlines until "Language & timezone"
-  Blogs of Computer Science, Software Engineering, and more.
-  Thoughts and ideas of society and daily life.
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: zh # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -38,7 +36,7 @@ author:
   type      : person # "person" (default), "organization"
   name      : Landfallbox
   url       :
-  avatar    : https://github.com/landfallbox/Pictures/blob/master/09928e644da6748cf51911f72cdafc8.jpg # path or url of avatar image (square)
+  avatar    : https://raw.githubusercontent.com/landfallbox/Pictures/master/09928e644da6748cf51911f72cdafc8.jpg # path or url of avatar image (square)
   bio       : A student majoring in Computer Science and Technology.  # 作者的一个简要的自我介绍
   email     : landfallbox@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -78,7 +76,7 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 
 ## TOC
 toc:
-  selectors: "h1,h2,h3" # "h1,h2,h3" (default)
+  selectors: "h1,h2,h3,h4,h5,h6" # "h1,h2,h3" (default)
 
 
 ## => Markdown Enhancements
@@ -207,13 +205,13 @@ defaults:
       type: posts
     values:
       layout: article
-      sharing: true
-      license: true
+      sharing: false
+      license: false
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
-      pageview: true
+      show_edit_on_github: false
+      show_subscribe: false
+      pageview: false
 
 
 ## => Plugins
